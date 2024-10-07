@@ -23,10 +23,11 @@ This is an ecommerce application where users can perform various actions such as
 
 4. **Run app.py:**
    - If database issues occur, use the provided database queries in the `ecom.sql` file.
-         - Make sure to first add a .env file and adjust details to your system requirements:
-               DB_PASSWORD='yourpassword'
-               DB_NAME='ecom'
-               DB_USERNAME='root'
+   - Make sure to first add a .env file and adjust details to your system requirements:
+      `DB_PASSWORD='yourpassword'
+      DB_NAME='ecom'
+      DB_USERNAME='root'`
+      
 
 ## Using Postman
 
