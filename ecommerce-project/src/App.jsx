@@ -26,24 +26,17 @@ const App = () => {
       <Route path="/" element={<Home/>} />
       <Route path='/customers' element={<CustomerList/>} />
       <Route path='/add-customers' element={<CustomerForm/>} />
-
-      {/* Customer Details */}
       <Route path='/customers/:id' element={<CustomerDetails />} />
-
       <Route path='/edit-customer/:id' element={<EditCustomer />} />
 
-      {/* ==== PRODUCTS ==== */}
       <Route path='/products/:id' element={<ProductDetails />} />
-
       <Route path='/product-catalog' element={<ProductCatalog/>} />
-
       <Route path='/edit-product/:id' element={<EditProduct />} />
-
       <Route path='/add-product' element={<AddProduct/>} />
 
-      {/* ==== ORDERS ==== */}
+
       <Route path='/track-order-status' element={<TrackOrder/>} />
-      
+
       <Route path='/sign-up' element={<SignUp/>} />
       <Route path='/login' element={<Login/>} />
 
